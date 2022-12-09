@@ -1,0 +1,58 @@
+### Lines
+lines.linewidth: 1.5               # line width in points
+
+
+### Axes
+axes.facecolor:     white   # axes background color
+axes.edgecolor:     silver   # axes edge color
+axes.linewidth:     0.8     # edge line width
+axes.grid:          True   # display grid or not
+axes.spines.left:   True  # display axis spines
+axes.spines.bottom: True
+axes.spines.top:    False
+axes.spines.right:  False
+axes.prop_cycle: cycler('color', ['011936', '82A5F1', 'FE4A49', 'teal', 'FED766', '009FB7', '95190C', 'A10690', '044B7F', '95190C', 'forestgreen'])
+
+
+### Ticks
+xtick.color:         222222   # color of the ticks
+ytick.color:         222222   # color of the ticks
+
+
+### Grid
+grid.color:     grey  # grid color
+grid.alpha:     0.2     # transparency, between 0.0 and 1.0
+
+
+### Legend
+legend.loc:           upper left
+legend.framealpha:    0.8      # legend patch transparency
+
+
+### Figure
+figure.figsize:     16, 6  # figure size in inches
+                               
+
+### Figure layout
+# figure.autolayout: True
+
+
+### Hist
+hist.bins: 30  # The default number of histogram bins or 'auto'.
+
+
+### Scatter
+scatter.marker: o         # The default marker type for scatter plots.
+# scatter.size: 5
+
+
+### Saving
+savefig.dpi:       150      # figure dots per inch or 'figure'
+savefig.format:    png         # {png, ps, pdf, svg}
+#savefig.transparent: True 
+
+
+### PDF backend params
+#pdf.compression:    3  # integer from 0 to 9
+                        # 0 disables compression (good for debugging)
+#pdf.fonttype:       3  # Output Type 3 (Type3) or Type 42 (TrueType)
