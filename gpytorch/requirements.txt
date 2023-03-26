@@ -5,3 +5,4 @@ notebook
 torch
 gpytorch
 sklearn
+ipywidgets

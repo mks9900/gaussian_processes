@@ -1,0 +1,44 @@
+# Södras färger enligt grafisk profil
+axes.prop_cycle: cycler('color', ['008549','EDCB0A','61B27F','64838B','595959','9E8706', 'A3D8E5','9FD0B1','F8DF51','D1DBDE',  '2B8399']) #hex colours
+
+# Legend
+legend.frameon: True
+legend.borderpad: 1
+legend.framealpha: 1
+legend.loc: best
+
+# Grid
+grid.color: lightgrey
+
+# Axes
+axes.grid: True
+axes.grid.axis: y
+axes.axisbelow: True
+axes.spines.top: False
+axes.spines.right: False
+axes.spines.bottom: True
+axes.spines.left: False
+axes.titlelocation: left 
+axes.titlesize: 18
+axes.titlepad: 20
+axes.titleweight: 100 
+axes.edgecolor: lightgrey
+
+
+
+
+
+# Lines properties
+lines.linewidth: 2
+
+font.family: DejaVu Sans
+font.weight: 100
+# Ticks
+xtick.top: False
+xtick.bottom: False
+ytick.left: False
+ytick.right: False
+
+
+
+# Titel
